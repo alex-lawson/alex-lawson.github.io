@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link href='style.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+  <title>Portfolio | Alex Lawson</title>
+</head>
+
+<body>
+
+<div class='wrapper'>
+
+<div class='headshot'><img src='media/headshot.png' /></div>
+<h1 class='site-title'>Alex Lawson</h1>
+
+<ul class='social-links'>
+  <li><a href='https://twitter.com/metadept' target='_blank'><img src='media/twitter_icon.png' alt='Twitter' /></a></li>
+  <li><a href='https://www.linkedin.com/in/metadept/' target='_blank'><img src='media/linkedin_icon.png' alt='LinkedIn' /></a></li>
+  <li><a href='https://github.com/alex-lawson/' target='_blank'><img src='media/github_icon.png' alt='GitHub' /></a></li>
+  <li><a href='mailto:cheswick13@gmail.com'><img src='media/email_icon.png' alt='Email' /></a></li>
+</ul>
+
+<div class='page-content'>
+
+<h1 class='section-title'>About Me</h1>
+
+<p>I'm Alex Lawson, a generalist programmer and game designer with particular interests in procedural generation and systems-driven gameplay.</p>
+
+<p>While I continuously strive to improve my technical skills, I also believe in applying broad experience and clear communication to any role. I aim to create games that advance both the medium and the industry, bringing new audiences to broaden and enrich the landscape of interactive media.</p>
+
+<h1 class='section-title'>Professional Work</h1>
+
+<div class='project'>
+<img class='project-image' src='media/starbound_screenshot_full.png' alt='Starbound screenshot' />
+<h2 class='project-title'>Starbound</h2>
+<ul class='project-links'>
+<li><a href='http://playstarbound.com/' target='_blank'>Official Site</a></li>
+<li><a href='https://store.steampowered.com/app/211820/Starbound/' target='_blank'>Steam Store Page</a></li>
+</ul>
+<p><i>Starbound</i> is a sprawling space sandbox adventure game developed by London-based studio Chucklefish. Players explore, fight, craft, dig and build their way across an infinite universe of procedurally-generated worlds, alone or with friends. <i>Starbound</i> has received high acclaim from players and critics, numerous awards, and has sold over 3 million copies to date.</p>
+<p>I joined the team shortly after <i>Starbound's</i> early access release in 2014. My role began with scripting entity behaviors in Lua, but quickly grew to include a range of responsibilities such as:</p>
+<ul>
+<li>Development of the game's custom C++ engine</li>
+<li>Building and documenting Lua APIs</li>
+<li>Supporting the modding community with information and API features</li>
+<li>Managing our issue tracker</li>
+<li>Project and release management</li>
+</ul>
+<p>After the game's 1.0 release in 2016 I also served as lead programmer and project coordinator for several major post-release content updates.</p>
+<p>While I had a hand in countless aspects of the project, some of the systems I was most directly responsible for designing and implementing include terrain and <a href='https://playstarbound.com/october-27th-caves/' target='_blank'>cave generation</a>, <a href='https://starbounder.org/Fish' target='_blank'>fishing</a>, <a href='http://playstarbound.com/10th-march-is-this-the-rail-life/' target='_blank'>rails</a>, and customizable, modular <a href='https://starbounder.org/Mechs' target='_blank'>space mechs</a>.</p>
+</div>
+
+<h1 class='section-title'>Personal Work</h1>
+
+<div class='project'>
+<img class='project-image' src='media/catchy_screenshot.png' alt='Catchy screenshot' />
+<h2 class='project-title'>'Catchy' Prototype</h2>
+<ul class='project-links'>
+  <li><a href='https://www.youtube.com/watch?v=VL6WvWarZ5U' target='_blank'>Video</a></li>
+</ul>
+<p>Prototype for a bug catching game, made primarily as a learning exercise for environment and character art. I used Blender for modeling/rigging/animation and Substance for procedural materials. Implemented in Unity using URP + shader graph for visual effects including occlusion dithering, dynamic foliage displacement and shader-driven UI elements.</p>
+</div>
+
+<div class='row'>
+
+<div class='project column'>
+<img class='project-image' src='media/bubbly_screenshot.png' alt='Bubbly screenshot' />
+<h2 class='project-title'>'Bubbly' Prototype</h2>
+<ul class='project-links'>
+  <li><a href='https://www.youtube.com/watch?v=BXoStPh_5Rg' target='_blank'>Video</a></li>
+</ul>
+<p>Prototype for an alchemical experimentation game in the style of an animated chalkboard. Try combining reagents at different temperatures to discover new substances. Made in Unity.</p>
+</div>
+
+<div class='column-spacer'></div>
+
+<div class='project column'>
+<img class='project-image' src='media/matchy_screenshot.png' alt='Matchy screenshot' />
+<h2 class='project-title'>'Matchy' Prototype</h2>
+<ul class='project-links'>
+  <li><a href='https://www.youtube.com/watch?v=hdJGzKmvOts' target='_blank'>Video</a></li>
+</ul>
+<p>Prototype for a match-3 game with survival/crafting elements. Features a mostly faithful recreation of Tetris Attack's core mechanics with JSON-configurable block behaviors for rapid prototyping. Made in Unity.</p>
+</div>
+
+</div>
+
+<div class='project'>
+<img class='project-image' src='media/filaments_screenshot_full.png' alt='Filaments screenshot' />
+<h2 class='project-title'>Filaments</h2>
+<ul class='project-links'>
+  <li><a href='https://metadept.itch.io/filaments' target='_blank'>Project Page</a></li>
+  <li><a href='https://github.com/alex-lawson/filaments' target='_blank'>Source</a></li>
+</ul>
+<p>A game about wandering through twisted, procedurally-generated worlds where up and down are relative. Initially made in a week for PROCJAM Summer 2018, <i>Filaments</i> incorporates a few different procedural techniques into a simple but satisfying game loop.</p>
+<p>Levels are built from pools of prefabs based on connector transformations and a few simple connectivity rules. Architectural elements (“shrines”) are generated meshes with rotational symmetry. Colors are selected by applying varying saturation and value ranges to a simple complementary scheme. Made in Unity3D using C#, with models created in Blender.</p>
+</div>
+
+<div class='row'>
+
+<div class='project column'>
+<img class='project-image' src='media/stargazer_screenshot.png' alt='Stargazer screenshot' />
+<h2 class='project-title'>Stargazer</h2>
+<ul class='project-links'>
+  <li><a href='https://metadept.itch.io/stargazer' target='_blank'>Project Page</a></li>
+  <li><a href='https://github.com/alex-lawson/stargazer' target='_blank'>Source</a></li>
+</ul>
+<p>A procedural constellation generator focusing on minimal interface and elegant presentation. <i>Stargazer</i> creates fictional constellations by iteratively placing new stars, with a set of simple restrictions that enforce a pleasing shape and sensible connectivity. Names are generated with a Markov sequence. Made using LÖVE.</p>
+</div>
+
+<div class='column-spacer'></div>
+
+<div class='project column'>
+<img class='project-image' src='media/starfoundry_screenshot.png' alt='Starfoundry screenshot' />
+<h2 class='project-title'>Starfoundry</h2>
+<ul class='project-links'>
+  <li><a href='https://community.playstarbound.com/resources/starfoundry.1302/' target='_blank'>Project Page</a></li>
+  <li><a href='https://github.com/alex-lawson/sb-automation' target='_blank'>Source</a></li>
+</ul>
+<p>Created just months after <i>Starbound’s</i> early access release in December 2013, <i>Starfoundry</i> was a collaborative modding project that added a variety of new systems to the game, most of them focused on automation and wiring. In addition to being a core contributor, I also managed the project including source control, issues, releases, etc. My work on this project and involvement in the modding community led to me joining Chucklefish later that year.</p>
+</div>
+
+</div>
+
+<div class='project'>
+<h2 class='project-title'>LÖVE Experiments</h2>
+<p>I love creating experimental projects to explore different techniques or algorithms. Here are a few samples of procedural generation made in LÖVE, mostly from 2017:</p>
+
+<div class='row'>
+<div class='column'>
+  <img class='project-image' src='media/love2d_landscape.gif' alt='love2d landscape generation sample' />
+  <p>Endless drifting landscape parallaxes built from composable noise functions</p>
+</div>
+
+<div class='column-spacer'></div>
+
+<div class='column'>
+  <img class='project-image' src='media/love2d_islands.gif' alt='love2d island generation sample' />
+  <p>Generating islands that change over time using Perlin noise layers, including gradual drift/erosion and seasonal rainfall</p>
+</div>
+</div>
+
+<div class='row'>
+<div class='column'>
+  <img class='project-image' src='media/love2d_dungeonrooms.gif' alt='love2d dungeon room generation sample' />
+  <p>A dungeon generator with a surprisingly simple approach, using random walks within a grid of rooms to achieve a partially-collapsed appearance that retains connectivity</p>
+</div>
+
+<div class='column-spacer'></div>
+
+<div class='column'>
+  <img class='project-image' src='media/love2d_lsystems.gif' alt='love2d Lindenmayer systems sample' />
+  <p>An exploration of some Lindenmayer systems, including a few different rule sets and ways to introduce stochastic variation</p>
+</div>
+</div>
+
+</div>
+
+<!-- If you're here reading the source, feel free to check out my third Ludum Dare game, Be Still. I like it a lot
+     but it doesn't look as good in a screenshot. -->
+
+<!--
+<div class='project'>
+<img class='project-image' src='media/bestill_screenshot.jpg' alt='Be Still screenshot' />
+<h2 class='project-title'>Be Still</h2>
+<ul class='project-links'>
+  <li><a href='http://metadept.com/bestill/' target='_blank'>Game</a></li>
+  <li><a href='http://ludumdare.com/compo/ludum-dare-26/?action=preview&uid=15489' target='_blank'>Ludum Dare Page</a></li>
+</ul>
+<p>A game about being still. Created for Ludum Dare 26 on the theme “Minimalism,” the player’s only control is to hold the spacebar to remain seated while things happen around them. Created for web using CraftyJS, with character animations built in Spine.</p>
+</div>
+-->
+
+<div class='row'>
+
+<div class='project column'>
+<img class='project-image' src='media/doubledouble_screenshot.jpg' alt='Double Double screenshot' />
+<h2 class='project-title'>Double, Double!</h2>
+<ul class='project-links'>
+  <li><a href='http://ludumdare.com/compo/ludum-dare-25/?action=preview&uid=15489' target='_blank'>Ludum Dare Page</a></li>
+</ul>
+<p>A tile matching game with some novel mechanics. Rather than being directly swapped, tiles are “stirred” clockwise or counterclockwise within the square reticle, and contiguous rectangular groups of powers of two are cleared periodically. Made using XNA for Ludum Dare 25.</p>
+</div>
+
+<div class='column-spacer'></div>
+
+<div class='project column'>
+<img class='project-image' src='media/roborancher_screenshot.jpg' alt='Robo Rancher screenshot' />
+<h2 class='project-title'>Robo Rancher</h2>
+<ul class='project-links'>
+  <li><a href='http://ludumdare.com/compo/ludum-dare-24/?action=preview&uid=15489' target='_blank'>Ludum Dare Page</a></li>
+</ul>
+<p>My first published game, <i>Robo Rancher</i> is about breeding robots using a simple genetic algorithm, then using them to collect scrap from a test chamber in order to build new ones. Robots are autonomous and the player’s interface consists of moving them between various “pens” with different purposes. Made using XNA for Ludum Dare 24.</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    <p class='copyright-footer'><i>&copy; 2018-2021 Alex Lawson</i></p>
+</footer>
+
+</div>
+
+</body>
+
+</html>
