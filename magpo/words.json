@@ -1,0 +1,242 @@
+{
+    "starter_words" : {
+        "default" : [
+            "and",
+            "and",
+            "can",
+            "for",
+            "I",
+            "in",
+            "is",
+            "it",
+            "me",
+            "my",
+            "not",
+            "the",
+            "the",
+            "to",
+            "of",
+            "we",
+            "you",
+            "like",
+            "as"
+        ],
+        "optional" : [
+            "where", "when", "how", "what", "why",
+            "swim", "run", "climb", "jump", "walk", "fly", "dive", "breathe", "cry", "laugh", "sleep",
+            "let", "watch", "stop", "keep", "hold", "touch", "push", "pull",
+            "sound", "air", "water", "earth", "fire", "life", "time", "space", "flesh", "stone", "lightning", "wood",
+            "hill", "valley", "mountain", "river", "forest", "plain", "city", "town", "street", "path",
+            "fork", "knife", "spoon", "hook", "chime", "charm", "bowl", "seat", "stove", "book", "sign",
+            "thread", "needle", "wire", "broom",
+            "eye", "eyes", "hand", "mouth", "head", "foot", "body", "leg", "arm", "hair",
+            "cat", "dog", "horse", "bird", "fly", "snake", "fish", "worm",
+            "tree", "flower", "grass", "reed", "bush", "vine", "leaf", "berry", "fruit"
+        ]
+    },
+    "booster_words" : [
+        {
+            "title" : "Animals",
+            "words" : [
+                "fox", "vixen", "hart", "hind", "doe", "fawn", "sheep", "ewe", "mare", "stallion", "foal",
+                "bear", "cub", "bull", "cow", "boar", "sow", "mouse", "rat", "weasel", "badger", "sloth",
+                "lion", "tiger", "zebra", "kangaroo", "wombat", "echidna", "bat", "squirrel",
+                "eagle", "sparrow", "wren", "hen", "rooster", "cock", "vulture", "hawk", "swallow", "crane", "heron",
+                "asp", "crocodile", "boa", "cobra", "newt", "toad", "frog", "lizard", "gecko",
+                "wing", "tail", "snout", "fang", "claw", "feather", "fur", "scale", "hide", "tongue", "egg", "hoof", "beak",
+                "slither", "burrow", "scurry", "chitter", "hiss", "roar", "screech", "pounce", "constrict", "trample", "charge", "gore",
+                "scent", "den", "nest", "sty"
+            ]
+        },
+        {
+            "title" : "Plants",
+            "words" : [
+                "leaf", "vine", "flower", "petal", "anther", "stamen", "pistil", "sepal", "petiole", "root", "stem", "branch", "trunk",
+                "tendril", "thorn", "bunch", "cluster", "frond", "spray", "fan", "rib", "moss", "lichen", "succulent", "creeping", "verdant",
+                "entwine", "entangle", "fibrous", "taproot", "loam", "soil", "log", "stick", "grass", "reed", "rush", "grain", "seed", "spore",
+                "fruit", "bark", "peel", "rind", "pith", "nut", "kernel", "nutshell",
+                "hellebore", "iris", "daisy", "tulip", "daffodil", "rose", "orchid", "fern", "sage", "mint", "wort", "weed", "creeper",
+                "ivy", "clover", "balm", "sprout", "seedling", "wildflower",
+                "oak", "ash", "cedar", "juniper", "hickory", "walnut", "yew", "maple", "spruce", "elm"
+            ]
+        },
+        {
+            "title" : "Tools and Hardware",
+            "words" : [
+                "hammer", "nail", "screw", "nut", "bolt", "wire", "clamp", "saw", "chisel", "level", "plane", "rasp", "wrench", "torque",
+                "weld", "grind", "pound", "chip", "scrape", "sand", "mill", "scribe", "drill", "carve", "bevel",
+                "belt", "pulley", "rope", "plumb", "block", "lever", "ratchet", "gear", "wheel", "mechanism", "engine",
+                "machine", "rotor", "knurled", "groove", "grit", "abrasive", "grease"
+            ]
+        },
+        {
+            "title" : "Kitchen",
+            "words" : [
+                "pot", "pan", "colander", "bottle", "mug", "cup", "bowl", "ewer", "pitcher", "jar", "crock", "dish", "plate", "saucer", "teacup", "kettle",
+                "stir", "boil", "bake", "roast", "saute", "fry", "mix", "baste", "chop", "mince", "shred", "slice", "simmer", "strain", "drain",
+                "potato", "carrot", "celery", "peas", "onion", "garlic", "broccoli", "cabbage", "bread", "butter", "flour", "yeast", "meat",
+                "salt", "pepper", "oil", "nutmeg", "cinnamon", "parsley", "sage", "rosemary", "thyme", "basil", "mint", "cumin", "oregano",
+                "casserole", "pasta", "soup", "salad", "dessert", "pudding", "appetizer", "meal", "snack", "eat", "devour", "munch"
+            ]
+        },
+        {
+            "title" : "Ruins",
+            "words" : [
+                "wall", "parapet", "stair", "sill", "portal", "ruin", "rubble", "statue", "arch", "column", "frescoe", "plaza", "collonade",
+                "stone", "block", "mosaic", "potsherd", "artifact", "relic", "trace", "remnant", "acqueduct", "causeway", "fortress", "well",
+                "catacomb", "dungeon", "spire", "sanctuary", "temple", "altar", "terrace", "henge", "monument", "obelisk", "tomb", "midden",
+                "crumbling", "haunted", "abandoned", "lost", "overgrown", "ruined", "sunken", "buried", "time-worn", "forgotten", "forbidden",
+                "excavate", "exhume", "reveal", "unearth", "uncover",
+                "vine", "moss", "lichen", "root", "patina", "crust", "eroded", "windswept", "pitted", "rusty", "ancient"
+            ]
+        },
+        {
+            "title" : "Shakespeare",
+            "words" : [
+                "thee", "thy", "thyself", "thine", "thou", "thus", "nay", "aye", "yea", "art", "betwixt", "quoth", "'tis", "nary", "methinks", "bethink",
+                "steed", "hath", "ere", "o'er", "dost", "doth", "sayeth", "maketh", "giveth", "assay", "abhor", "balk", "hie", "knap", "mark", "retire",
+                "shrift", "anon", "fain", "base", "ill", "mad", "ought", "hither", "thither", "whence", "wherefore", "aught", "naught", "knave", "morrow",
+                "sire", "liege", "lady"
+            ]
+        },
+        {
+            "title" : "Sounds Smart",
+            "words" : [
+                "vitriol", "astute", "bellicose", "dross", "facetious", "heuristic", "inchoate", "inimical", "intelligentsia", "lugubrious",
+                "nadir", "apex", "phenomenon", "oracular", "parsimonious", "protean", "ribald", "Sisyphean", "torpid", "languourous", "sapient",
+                "pedagogy", "chthonic", "eidetic", "subsume", "clandestine", "parity", "entail", "enthrall", "imperturbable", "deleterious",
+                "rictus", "visage", "crepuscular", "doleful", "enervate", "venerable", "mercurial"
+            ]
+        }
+    ],
+    "prompts" : [
+        {
+            "text" : "Tell us a fun fact about yourself",
+            "bonus_words" : ["I"],
+            "round_max" : 1
+        },
+        {
+            "text" : "What's your biggest regret?",
+            "bonus_words" : ["I"],
+            "round_max" : 1
+        },
+        {
+            "text" : "What do you fear most in this world?",
+            "round_max" : 1
+        },
+        {
+            "text" : "What's a fun game you played recently?",
+            "round_max" : 1
+        },
+        {
+            "text" : "What's your hidden talent?",
+            "bonus_words" : ["I", "can"],
+            "round_max" : 1
+        },
+        {
+            "text" : "What do you like best about yourself?",
+            "bonus_words" : ["my"],
+            "round_max" : 1
+        },
+        {
+            "text" : "What's your favorite meal?",
+            "round_min" : 2
+        },
+        {
+            "text" : "Write a short poem about [poem_subject_abstract]",
+            "round_min" : 2
+        },
+        {
+            "text" : "Write a short poem about [poem_subject_concrete]",
+            "round_min" : 2
+        },
+        {
+            "text" : "Tell us a joke",
+            "round_min" : 2
+        },
+        {
+            "text" : "Write a clever rhyming couplet",
+            "round_min" : 2
+        },
+        {
+            "text" : "Think of a friend or loved one and offer them a genuine, heartfelt compliment",
+            "bonus_words" : ["you", "your"],
+            "round_min" : 2
+        },
+        {
+            "text" : "What's the cruelest punishment you would wish on your worst enemy?",
+            "round_min" : 2
+        },
+        {
+            "text" : "Write a traditional haiku (three lines with 5 / 7 / 5 syllables)",
+            "round_min" : 3
+        },
+        {
+            "text" : "What's the ultimate meaning of life?",
+            "round_min" : 3
+        },
+        {
+            "text" : "What's the biggest challenge facing society today?",
+            "round_min" : 3
+        },
+        {
+            "text" : "Write a mournful elegy for [poem_subject_concrete]",
+            "round_min" : 5
+        },
+        {
+            "text" : "Write a glowing ode to [poem_subject_concrete]",
+            "round_min" : 5
+        },
+        {
+            "text" : "Write a limerick",
+            "bonus_words" : ["there", "once", "was", "a", "who"],
+            "round_min" : 5
+        },
+        {
+            "text" : "Write a piece of [fiction_genre] micro-fiction",
+            "round_min" : 5
+        }
+    ],
+    "prompt_terms" : {
+        "poem_subject_abstract" : [
+            "love",
+            "loss",
+            "nature",
+            "longing",
+            "despair",
+            "wonder",
+            "childhood",
+            "the past",
+            "the future",
+            "rain",
+            "time",
+            "change",
+            "permanence",
+            "light",
+            "darkness"
+        ],
+        "poem_subject_concrete" : [
+            "a cat with personality",
+            "a dog",
+            "a lover",
+            "a friend",
+            "an enemy",
+            "a tree",
+            "a flower",
+            "the sun",
+            "the moon",
+            "the stars",
+            "a mountain",
+            "your hometown",
+            "your homeland",
+            "a run-down house"
+        ],
+        "fiction_genre" : [
+            "sci-fi",
+            "fantasy",
+            "romance",
+            "historical",
+            "horror"
+        ]
+    }
+}

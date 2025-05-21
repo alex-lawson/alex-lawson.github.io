@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <title>Magnetic Roguetry</title>
+        <link href='style.css' rel='stylesheet'>
+        <script src="magpo.js"></script>
+    </head>
+    <body>
+        <div class="status-area-wrapper">
+            <div class="button" id="button-new-game">New Game</div>
+            <div class="inline-label" id="game-status-label">Round 1 of 4</div>
+        </div>
+        <div class="modal-wrapper">
+            <div class="modal" id="modal-booster-choice">
+                <div class="booster-choice-label">Choose a Booster Pack</div>
+                <div class="booster-choice-wrapper" id="booster-choice-wrapper">
+                    
+                </div>
+            </div>
+            <div class="modal" id="modal-booster-reveal">
+                <div class="booster-choice-label">Enjoy Your New Words</div>
+                <div class="booster-reveal-wrapper">
+                    <div class="magword-bag" id="last-booster-bag">
+                        
+                    </div>
+                    <div class="modal-button" id="button-next-round">Next Round</div>
+                </div>
+                
+            </div>
+            <div class="play-area-wrapper">
+                
+                <div class="play-area-source">
+                    <div class="inline-label">My hand:</div>
+                    <div class="magword-bag" id="cur-hand">
+                        
+                    </div>
+                    <div class="control-strip">
+                        <div class="inline-label" id="word-bag-label">Words in Bag: 12</div>
+                        <div class="button right" id="button-shuffle-hand">Shuffle Hand</div>
+                    </div>
+                </div>
+                <div class="play-area-target">
+                    <div class="prompt-label" id="prompt-label">Prompt</div>
+                    <div class="poem-wip" id="cur-poem">
+                    </div>
+                    <div class="control-strip">
+                        <div class="inline-label" id="poem-status-label">asdf</div>
+                        <div class="button" id="button-end-line">End Line</div>
+                        <div class="button right" id="button-end-poem">Submit Entry</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
